@@ -1,5 +1,5 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import type { NextPage } from "next";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
@@ -16,11 +16,14 @@ const Home: NextPage = () => {
         </h1>
 
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint error consectetur modi odio obcaecati tempore dignissimos assumenda, eum reiciendis dolores magni autem at debitis voluptas. Rem ipsa deleniti autem dignissimos.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint error
+          consectetur modi odio obcaecati tempore dignissimos assumenda, eum
+          reiciendis dolores magni autem at debitis voluptas. Rem ipsa deleniti
+          autem dignissimos.
         </p>
       </main>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
